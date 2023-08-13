@@ -1,0 +1,99 @@
+body
+{
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background: rgb(223,236,200);
+background: linear-gradient(90deg, rgba(223,236,200,1) 26%, rgba(76,255,0,1) 100%);
+}
+video{
+	margin-top: 1rem;
+	margin-right: 1rem;
+	height: fit-content;
+	width: 300px;
+	border: 5px solid rgb(0, 0, 0);
+}
+.streams{
+	/* width: 50%; */
+	display: flex;
+	justify-content: space-between;
+}
+
+.chat-left{
+	float : left ;
+	background: rgb(168, 173, 170);
+	padding:10px ;
+	width: fit-content;
+	margin-left: 10px;
+	height: fit-content;
+	border-radius: 0.8rem;
+}
+.chat-right{
+	float : right ;
+	display: block;
+	position: relative;
+	left: 150px;
+	background: rgb(30, 185, 84);
+	padding:10px ;
+	width: fit-content;
+	margin-top: 5px;
+	margin:1rem;
+	height: fit-content;
+	border-radius: 0.8rem;
+}
+
+.chat{
+	width: 300px;
+	height: 100px;
+scroll-behavior: smooth;
+border: 1px solid red;
+overflow-y: scroll;
+}
+.title{
+	text-align: center;
+}
+.container
+{
+	display: grid;
+	place-items:center;
+}
+
+.box{
+	padding: 10px;
+	padding-right: 41px;
+	display: grid;
+	width: 220px;
+	aspect-ratio: 1;
+	margin-top: 5px;
+	background-color: rgb(245, 228, 229);
+	margin-bottom: 4px;
+	border: 3px solid rgb(0, 0, 0);
+	border-radius: 1rem;
+	scroll-behavior: smooth;
+overflow-y: scroll;
+
+}
+
+.sendbtn{
+	background-color: rgb(64, 240, 58);
+	border: transparent;
+	border-radius: 7px;
+	padding: 7px;
+	margin-top: 4px;
+	cursor: pointer;
+}
+
+.sendContainer{
+	position: relative;
+	top: 1px;
+	justify-content: space-between;
+	width: 300px;
+	margin-left: 40px;
+}
+
+input{
+	border-radius:5px ;
+	/* border: 1px solid transparent; */
+	margin-right: 5px;
+	width: 70%;
+}
